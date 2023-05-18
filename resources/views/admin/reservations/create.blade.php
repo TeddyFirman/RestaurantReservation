@@ -81,7 +81,7 @@
                             @enderror
                         </div>
                         <div class="sm:col-span-6 pt-5">
-                            <label for="location" class="block text-sm font-medium text-gray-700">Table</label>
+                            <label for="table" class="block text-sm font-medium text-gray-700">Table</label>
                             <div class="mt-1">
                                 <select name="table_id" id="table_id" class="block w-full mt-1">
                                     @foreach ($tables as $table)
